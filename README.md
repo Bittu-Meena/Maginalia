@@ -1,20 +1,5 @@
 # Marginalia for Android
 
-Paste a YouTube lecture link, tick topics, and get short study notes (tables, formulas, diagrams) written by Gemini, then save them as a PDF. Everything runs **on the phone**: there is no server. The app reads YouTube's auto-generated captions itself and talks to Gemini directly, so your key never leaves your phone except to go to Google.
-
-This is a Capacitor app (a web app packaged as an Android app).
-
-## Get the APK, no installs needed (about 10 minutes)
-
-GitHub builds the APK for you, for free.
-
-1. Make a free account at https://github.com
-2. Click **+** (top right) then **New repository**. Name it `marginalia`, choose **Private**, click **Create repository**.
-3. Click **uploading an existing file**. Open the `marginalia-android` folder on your computer, select **everything inside it** and drag it into the page. Make sure the `.github` folder goes up too. Click **Commit changes**.
-   - If `.github` did not upload: click **Add file, Create new file**, type the name `.github/workflows/build-apk.yml`, paste the contents of that file from this folder, and commit.
-4. Click the **Actions** tab. A run called **Build Android APK** starts by itself. Wait 5 to 10 minutes for the green tick. (A red cross: open the run, copy the red error text and send it to me.)
-5. On your **phone**, open Chrome, go to your repository, tap **Releases** (right side), and download **Marginalia.apk**.
-6. Open the downloaded file. Android will ask to allow installing from Chrome: allow it, then tap Install.
 
 ## First launch
 
